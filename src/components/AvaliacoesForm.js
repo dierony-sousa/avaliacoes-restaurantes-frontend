@@ -35,7 +35,7 @@ function AvaliacoesForm({ handleAddAvaliacao, setShowForm }) {
 
   return (
     <Paper elevation={3} style={formStyle}>
-      <Typography variant="h6" getterBottom>
+      <Typography variant="h6">
         Adicionar Avaliação
       </Typography>
       <form onSubmit={handleSubmit}>
